@@ -1,0 +1,64 @@
+.navbar-default{
+    background-color: rgb(49, 62, 79);
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: rgb(190, 255, 255);
+}
+
+.navbar-default .navbar-brand:hover{
+    color: rgb(190, 255, 255);
+}
+
+.jumbotron{
+    color: white;
+    background-color: rgb(102, 186, 158);
+}
+
+.jumbotron img{
+    max-width: 300px;
+}
+
+.jumbotron h1{
+    font-weight: 700;
+}
+
+.jumbotron hr{
+    border-top: 3px solid white;
+    margin-top: 8px;
+}
+
+.jumbotron .col-xs-2{
+    padding: 0;
+}
+
+.jumbotron .col-xs-5{
+    padding: 0 2px;
+}
+
+@media (min-width: 768px) {
+    .fa-star{
+        font-size: 25px;
+    }
+
+    .jumbotron hr{
+        border-top: 5px solid white;
+        margin-top: 10px;
+    }
+}
